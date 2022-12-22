@@ -26,7 +26,6 @@ public class requestAuthorityDao {
 
 	public void updateStatus(String id) {
 		sqlSessionTemplate.update(namespace+".UpdateStatus", id);
-		
 	}
 
 	public requestAuthorityBean getInfoByID(String id) {
@@ -36,7 +35,6 @@ public class requestAuthorityDao {
 
 	public void deleteByID(String id) {
 		sqlSessionTemplate.delete(namespace+".DeleteByID",id);
-		
 	}
 
 	public int getCount() {
@@ -48,7 +46,6 @@ public class requestAuthorityDao {
 
 	public void rejectAuthority(String id) {
 		sqlSessionTemplate.selectOne(namespace+".RejectAuthority",id);
-		
 	}
 	
 }
