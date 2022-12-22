@@ -152,7 +152,8 @@
 					<br><br>
 			        <hr>
 			    </div>
-<!-- 		<table width=500 height=40 align="center"> 카카오 계정 x
+			    
+<!-- 		<table width=500 height=40 align="center">
 			<tr>
 				<td align="center">
 				카카오 id,email

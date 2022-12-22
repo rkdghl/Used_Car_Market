@@ -64,7 +64,7 @@ public class CarUpdateController {
 	@RequestMapping(value= command, method = RequestMethod.POST)
 	public String updateCar(@ModelAttribute("cb") @Valid CarBean cb, BindingResult result,HttpServletResponse response, @RequestParam(value="pageNumber",required = false) String pageNumber, Model model, @RequestParam("cnum") String cnum, MultipartHttpServletRequest mtfRequest) throws IOException {
 		
-		System.out.println("하하하 : " + cb.getCreg_day());
+		System.out.println("날짜 : " + cb.getCreg_day());
 		
 		String temp = "";
 		String[] reg_day = (cb.getCreg_day()).split("-");

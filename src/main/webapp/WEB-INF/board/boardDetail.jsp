@@ -71,7 +71,6 @@
 			<img src="<%=request.getContextPath()%>/resources/${bd.image}" height=800 width=600 >
 		</c:if>
 		<c:if test="${bd.image == null }">
-		 이미지 없음<br>
 		</c:if>
 		</td>
 	</tr>

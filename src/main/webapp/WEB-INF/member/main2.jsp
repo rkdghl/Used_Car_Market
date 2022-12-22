@@ -1474,7 +1474,7 @@ ul[class='nav navbar-nav navbarborder'] {
 								<div id="readmore">
 									<h1>그랜저 2.0 가솔린</h1>
 									<p > <!-- overflow:hidden 값을 넣어주지 않으면 글자가 이상해짐 -->
-										추가로 여기에 글자가 너무 없다면 글이 이상해져dsadasdasdsa <!-- br태그 없이 자동 줄바꿈 될 수 있게 위의 overflow:hidden 값을 넣었습니다. -->
+										추가로 여기에 글자가 너무 없다면 글이 이상해져 <!-- br태그 없이 자동 줄바꿈 될 수 있게 위의 overflow:hidden 값을 넣었습니다. -->
 										요ㅠㅠdasfdsfㅠ <!-- 바로 윗 줄에서 '글이 이상해져'에서 일부로 엔터 쳤는데, '추가로' ~ '이상해져' 여기까지 반드시 들어가야해요, 이게 p태그라서 저절로 글에 맞춰서 크기 조정 되는데 아마, 위의 내용 조금만 지워보셔도 알거에요/.. -->
 									</p>
 									<button id="btnRL">닫기</button>

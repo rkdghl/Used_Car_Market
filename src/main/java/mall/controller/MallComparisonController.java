@@ -30,7 +30,6 @@ public class MallComparisonController {
 	
 	@RequestMapping(command)
 	public String comparison(HttpSession session, Model model, @RequestParam("numData") String numData) {
-		System.out.println("비교하기 컨트롤러");
 		
 		System.out.println("numData:" + numData);
 		
