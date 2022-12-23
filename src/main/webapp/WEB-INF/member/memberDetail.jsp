@@ -227,10 +227,6 @@
 			      <th align="center">핸드폰번호</th>
 			      <td>${mem.hp}</td>
 			   </tr>
-			   <tr class="cart__list__detail">
-			   <th>사용자 이메일</th>
-			   <td align="center">${mem.email}</td>
-			   </tr>
 	   	</tbody>
 	   </table>
 	   </form>
